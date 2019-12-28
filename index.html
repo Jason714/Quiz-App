@@ -8,6 +8,42 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <div class="highscores">
+      <a href="highscores.html">Previous Highscores</a>
+    </div>
+    <div class="timer">Time Remaining: <span id="time">0</span></div>
+
+    <div class="container">
+      <div id="startPage" class="start">
+        <h1>Timed Quiz on Coding Topics!</h1>
+        <h3>
+          This is a timed quiz to test your knowledge on Game of Thrones. Your
+          score will be based upon the time remaining when you've answered all
+          of the questions. Incorrect answers will give a time penalty of 15
+          seconds. Press the "Start" button below to begin the quiz.
+        </h3>
+        <button id="start" class="btn start-btn">Start</button>
+      </div>
+
+      <div id="question-container" class="hidden">
+        <h2 id="question">Question</h2>
+        <div id="answers" class="btn-grid">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+        </div>
+      </div>
+
+      <div id="end-container" class="hidden">
+        <h1 class="end-title">Game Over</h1>
+        <h3>Your score is <span id="score"></span></h3>
+        <h3>
+          Enter your initials: <input type="text" id="init" />
+          <button id="submitBtn" class="btn">Submit</button>
+        </h3>
+      </div>
+    </div>
     <script type="text/javascript" src="assets/js/questions.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
   </body>
