@@ -8,7 +8,7 @@ var questions = [
     title: "Which name is given to the bastards of The Westerlands?",
     choices: ["Stone", "Rivers", "Snow", "Hill"],
     answer: "Hill"
-  }
+  },
   {
     title: "What does Varys usually claim to be his aim?",
     choices: ["Serve the realm", "Avenge the death of Rhaegar Targaryan", "Serve the Targaryans", "Avenge the sack of King's Landing"],

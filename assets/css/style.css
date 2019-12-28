@@ -44,6 +44,10 @@ body {
     text-align: center;
 }
 
+.highscore {
+    text-align: center;
+}
+
 .start-btn {
     font-size: 25px;
     font-weight: bold;
