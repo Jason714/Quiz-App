@@ -2,26 +2,24 @@
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-}
-
 body {
+    margin: 0;
+    padding: 0;
     background-image: radial-gradient(#636e72, #b2bec3, #dfe6e9);
 }
 
 .highscores {
-    float: left;
-    margin-left: 50px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    font-size: 20px;
+    position: absolute;
+    left: 25px;
+    top: 15px;
 }
 
 .timer {
-    float: right;
-    margin-right: 50px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    font-size: 20px;
+    position: absolute;
+    right: 25px;
+    top: 15px;
 }
 
 .container {
@@ -31,6 +29,7 @@ body {
     width: 800px;
     max-width: 80%;
     margin: 0 auto;
+    margin-top: 100px;
     justify-content: center;
     align-items: center;
     background-color: cornsilk;
@@ -74,18 +73,30 @@ body {
     margin: 20px 0;
 }
 
+.ans-btn {
+    font-size: 25px;
+}
+
 .correct {
+    opacity: 0.3;
+    font-size: 50px;
+    text-align: center;
     background-color: palegreen;
     color: black;
 }
 
 .wrong {
+    opacity: 0.3;
+    font-size: 50px;
+    text-align: center;
     background-color: orangered;
     color: black;
 }
 
 .end-title {
+    font-size: 80px;
     text-align: center;
+    color: orangered;
 }
 
 .hidden {
