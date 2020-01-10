@@ -5,3 +5,5 @@ Your score will be based upon the time remaining at the end of the quiz. Answers
 There will be a 15 second penalty for any wrong answer, keep this in mind while going through the quiz.
 You will be able to see a list of previous highscores that are stored on the local server by clicking the highscores link. You will also be able to clear highscores from the local server.
 Have fun!!
+
+<img src="assets/images/quiz-app-screenshot.png">
